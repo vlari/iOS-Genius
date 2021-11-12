@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831ADAAB2739E13100CB2690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADAAA2739E13100CB2690 /* AppDelegate.swift */; };
+		831ADAAD2739E13100CB2690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADAAC2739E13100CB2690 /* SceneDelegate.swift */; };
+		831ADAAF2739E13100CB2690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADAAE2739E13100CB2690 /* ViewController.swift */; };
+		831ADAB22739E13100CB2690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831ADAB02739E13100CB2690 /* Main.storyboard */; };
+		831ADAB42739E13200CB2690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831ADAB32739E13200CB2690 /* Assets.xcassets */; };
+		831ADAB72739E13200CB2690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831ADAB52739E13200CB2690 /* LaunchScreen.storyboard */; };
+		831ADAC22739E13200CB2690 /* LyricsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADAC12739E13200CB2690 /* LyricsAppTests.swift */; };
+		831ADACD2739E13200CB2690 /* LyricsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADACC2739E13200CB2690 /* LyricsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		831ADABE2739E13200CB2690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831ADA9F2739E13100CB2690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831ADAA62739E13100CB2690;
+			remoteInfo = LyricsApp;
+		};
+		831ADAC92739E13200CB2690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831ADA9F2739E13100CB2690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831ADAA62739E13100CB2690;
+			remoteInfo = LyricsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		831ADAA72739E13100CB2690 /* LyricsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyricsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831ADAAA2739E13100CB2690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		831ADAAC2739E13100CB2690 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		831ADAAE2739E13100CB2690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		831ADAB12739E13100CB2690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831ADAB32739E13200CB2690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		831ADAB62739E13200CB2690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		831ADAB82739E13200CB2690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831ADABD2739E13200CB2690 /* LyricsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831ADAC12739E13200CB2690 /* LyricsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsAppTests.swift; sourceTree = "<group>"; };
+		831ADAC32739E13200CB2690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831ADAC82739E13200CB2690 /* LyricsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		831ADACC2739E13200CB2690 /* LyricsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsAppUITests.swift; sourceTree = "<group>"; };
+		831ADACE2739E13200CB2690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831ADAA42739E13100CB2690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831ADABA2739E13200CB2690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831ADAC52739E13200CB2690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831ADA9E2739E13100CB2690 = {
+			isa = PBXGroup;
+			children = (
+				831ADAA92739E13100CB2690 /* LyricsApp */,
+				831ADAC02739E13200CB2690 /* LyricsAppTests */,
+				831ADACB2739E13200CB2690 /* LyricsAppUITests */,
+				831ADAA82739E13100CB2690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831ADAA82739E13100CB2690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831ADAA72739E13100CB2690 /* LyricsApp.app */,
+				831ADABD2739E13200CB2690 /* LyricsAppTests.xctest */,
+				831ADAC82739E13200CB2690 /* LyricsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831ADAA92739E13100CB2690 /* LyricsApp */ = {
+			isa = PBXGroup;
+			children = (
+				831ADADE2739E18400CB2690 /* Models */,
+				831ADADD2739E16700CB2690 /* App */,
+				831ADADC2739E15E00CB2690 /* Resources */,
+				831ADADB2739E15500CB2690 /* Views */,
+				831ADADA2739E14E00CB2690 /* Controllers */,
+				831ADAB02739E13100CB2690 /* Main.storyboard */,
+				831ADAB82739E13200CB2690 /* Info.plist */,
+			);
+			path = LyricsApp;
+			sourceTree = "<group>";
+		};
+		831ADAC02739E13200CB2690 /* LyricsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				831ADAC12739E13200CB2690 /* LyricsAppTests.swift */,
+				831ADAC32739E13200CB2690 /* Info.plist */,
+			);
+			path = LyricsAppTests;
+			sourceTree = "<group>";
+		};
+		831ADACB2739E13200CB2690 /* LyricsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				831ADACC2739E13200CB2690 /* LyricsAppUITests.swift */,
+				831ADACE2739E13200CB2690 /* Info.plist */,
+			);
+			path = LyricsAppUITests;
+			sourceTree = "<group>";
+		};
+		831ADADA2739E14E00CB2690 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				831ADAAE2739E13100CB2690 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		831ADADB2739E15500CB2690 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				831ADAB52739E13200CB2690 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		831ADADC2739E15E00CB2690 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				831ADAB32739E13200CB2690 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		831ADADD2739E16700CB2690 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				831ADAAA2739E13100CB2690 /* AppDelegate.swift */,
+				831ADAAC2739E13100CB2690 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		831ADADE2739E18400CB2690 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831ADAA62739E13100CB2690 /* LyricsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831ADAD12739E13200CB2690 /* Build configuration list for PBXNativeTarget "LyricsApp" */;
+			buildPhases = (
+				831ADAA32739E13100CB2690 /* Sources */,
+				831ADAA42739E13100CB2690 /* Frameworks */,
+				831ADAA52739E13100CB2690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyricsApp;
+			productName = LyricsApp;
+			productReference = 831ADAA72739E13100CB2690 /* LyricsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		831ADABC2739E13200CB2690 /* LyricsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831ADAD42739E13200CB2690 /* Build configuration list for PBXNativeTarget "LyricsAppTests" */;
+			buildPhases = (
+				831ADAB92739E13200CB2690 /* Sources */,
+				831ADABA2739E13200CB2690 /* Frameworks */,
+				831ADABB2739E13200CB2690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831ADABF2739E13200CB2690 /* PBXTargetDependency */,
+			);
+			name = LyricsAppTests;
+			productName = LyricsAppTests;
+			productReference = 831ADABD2739E13200CB2690 /* LyricsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		831ADAC72739E13200CB2690 /* LyricsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831ADAD72739E13200CB2690 /* Build configuration list for PBXNativeTarget "LyricsAppUITests" */;
+			buildPhases = (
+				831ADAC42739E13200CB2690 /* Sources */,
+				831ADAC52739E13200CB2690 /* Frameworks */,
+				831ADAC62739E13200CB2690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831ADACA2739E13200CB2690 /* PBXTargetDependency */,
+			);
+			name = LyricsAppUITests;
+			productName = LyricsAppUITests;
+			productReference = 831ADAC82739E13200CB2690 /* LyricsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831ADA9F2739E13100CB2690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					831ADAA62739E13100CB2690 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					831ADABC2739E13200CB2690 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 831ADAA62739E13100CB2690;
+					};
+					831ADAC72739E13200CB2690 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 831ADAA62739E13100CB2690;
+					};
+				};
+			};
+			buildConfigurationList = 831ADAA22739E13100CB2690 /* Build configuration list for PBXProject "LyricsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831ADA9E2739E13100CB2690;
+			productRefGroup = 831ADAA82739E13100CB2690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831ADAA62739E13100CB2690 /* LyricsApp */,
+				831ADABC2739E13200CB2690 /* LyricsAppTests */,
+				831ADAC72739E13200CB2690 /* LyricsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831ADAA52739E13100CB2690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831ADAB72739E13200CB2690 /* LaunchScreen.storyboard in Resources */,
+				831ADAB42739E13200CB2690 /* Assets.xcassets in Resources */,
+				831ADAB22739E13100CB2690 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831ADABB2739E13200CB2690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831ADAC62739E13200CB2690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831ADAA32739E13100CB2690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831ADAAF2739E13100CB2690 /* ViewController.swift in Sources */,
+				831ADAAB2739E13100CB2690 /* AppDelegate.swift in Sources */,
+				831ADAAD2739E13100CB2690 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831ADAB92739E13200CB2690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831ADAC22739E13200CB2690 /* LyricsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831ADAC42739E13200CB2690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831ADACD2739E13200CB2690 /* LyricsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		831ADABF2739E13200CB2690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831ADAA62739E13100CB2690 /* LyricsApp */;
+			targetProxy = 831ADABE2739E13200CB2690 /* PBXContainerItemProxy */;
+		};
+		831ADACA2739E13200CB2690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831ADAA62739E13100CB2690 /* LyricsApp */;
+			targetProxy = 831ADAC92739E13200CB2690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		831ADAB02739E13100CB2690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831ADAB12739E13100CB2690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		831ADAB52739E13200CB2690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831ADAB62739E13200CB2690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831ADACF2739E13200CB2690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		831ADAD02739E13200CB2690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831ADAD22739E13200CB2690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZJ2LKY34X;
+				INFOPLIST_FILE = LyricsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogdev.LyricsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		831ADAD32739E13200CB2690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZJ2LKY34X;
+				INFOPLIST_FILE = LyricsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogdev.LyricsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		831ADAD52739E13200CB2690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZJ2LKY34X;
+				INFOPLIST_FILE = LyricsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogdev.LyricsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyricsApp.app/LyricsApp";
+			};
+			name = Debug;
+		};
+		831ADAD62739E13200CB2690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZJ2LKY34X;
+				INFOPLIST_FILE = LyricsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogdev.LyricsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyricsApp.app/LyricsApp";
+			};
+			name = Release;
+		};
+		831ADAD82739E13200CB2690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZJ2LKY34X;
+				INFOPLIST_FILE = LyricsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogdev.LyricsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LyricsApp;
+			};
+			name = Debug;
+		};
+		831ADAD92739E13200CB2690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZJ2LKY34X;
+				INFOPLIST_FILE = LyricsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogdev.LyricsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LyricsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831ADAA22739E13100CB2690 /* Build configuration list for PBXProject "LyricsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831ADACF2739E13200CB2690 /* Debug */,
+				831ADAD02739E13200CB2690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831ADAD12739E13200CB2690 /* Build configuration list for PBXNativeTarget "LyricsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831ADAD22739E13200CB2690 /* Debug */,
+				831ADAD32739E13200CB2690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831ADAD42739E13200CB2690 /* Build configuration list for PBXNativeTarget "LyricsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831ADAD52739E13200CB2690 /* Debug */,
+				831ADAD62739E13200CB2690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831ADAD72739E13200CB2690 /* Build configuration list for PBXNativeTarget "LyricsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831ADAD82739E13200CB2690 /* Debug */,
+				831ADAD92739E13200CB2690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831ADA9F2739E13100CB2690 /* Project object */;
+}
