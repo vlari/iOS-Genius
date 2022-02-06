@@ -8,6 +8,7 @@
 import Foundation
 
 struct SearchLyricCellViewModel {
+    let id: Int
     let title: String
     let songThumbnail: String
     let artistName: String

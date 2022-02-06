@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreData
 
 struct SongViewModel {
     let stats: SongStatistic

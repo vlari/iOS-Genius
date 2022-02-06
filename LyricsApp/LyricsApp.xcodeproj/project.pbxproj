@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8302505327ACA65000C613C1 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302505227ACA65000C613C1 /* ChartsViewController.swift */; };
 		8304C59A274FDBD8000C7B59 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304C599274FDBD8000C7B59 /* DescriptionView.swift */; };
 		831ADAAB2739E13100CB2690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADAAA2739E13100CB2690 /* AppDelegate.swift */; };
 		831ADAAD2739E13100CB2690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADAAC2739E13100CB2690 /* SceneDelegate.swift */; };
@@ -16,11 +17,20 @@
 		831ADACD2739E13200CB2690 /* LyricsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831ADACC2739E13200CB2690 /* LyricsAppUITests.swift */; };
 		831E4DB2274EC77D006ADF66 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E4DB1274EC77D006ADF66 /* AboutViewController.swift */; };
 		831E4DB4274ED621006ADF66 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E4DB3274ED621006ADF66 /* ViewController+Extension.swift */; };
+		834E3C6A27AEA6BA00DFDF66 /* ChartCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E3C6927AEA6BA00DFDF66 /* ChartCellViewModel.swift */; };
+		834E3C6D27AEA91900DFDF66 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E3C6C27AEA91900DFDF66 /* ChartTableViewCell.swift */; };
+		83539B3427AF9CC300EBB952 /* BookedmarkLyricViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83539B3327AF9CC300EBB952 /* BookedmarkLyricViewModel.swift */; };
+		83539B3627AFA70F00EBB952 /* BookmarkLyricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83539B3527AFA70F00EBB952 /* BookmarkLyricTableViewCell.swift */; };
+		835F983D27B00F6000783EE7 /* LyricEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F983B27B00F6000783EE7 /* LyricEntity+CoreDataClass.swift */; };
+		835F983E27B00F6000783EE7 /* LyricEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F983C27B00F6000783EE7 /* LyricEntity+CoreDataProperties.swift */; };
 		83645087274C1ABC00B80C47 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83645086274C1ABC00B80C47 /* ApiEndpoint.swift */; };
 		83645089274C1E1800B80C47 /* LyricEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83645088274C1E1800B80C47 /* LyricEndpoint.swift */; };
 		8364508B274C204400B80C47 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364508A274C204400B80C47 /* SearchResponse.swift */; };
 		8364508E274C260300B80C47 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364508D274C260300B80C47 /* ApiService.swift */; };
-		837ABBC92741998800F63612 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837ABBC82741998800F63612 /* MainViewController.swift */; };
+		8378438327ADBA4C00A8EA70 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378438227ADBA4C00A8EA70 /* TabBarViewController.swift */; };
+		8378438827ADBAF800A8EA70 /* BookmarkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378438727ADBAF800A8EA70 /* BookmarkListViewController.swift */; };
+		8378438A27ADC69A00A8EA70 /* SiteEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378438927ADC69A00A8EA70 /* SiteEndpoint.swift */; };
+		837ABBC92741998800F63612 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837ABBC82741998800F63612 /* SearchViewController.swift */; };
 		837ABBCC274199DA00F63612 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837ABBCB274199DA00F63612 /* Color+Extension.swift */; };
 		837ABBD02741A25B00F63612 /* Programme-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 837ABBCF2741A25B00F63612 /* Programme-Regular.ttf */; };
 		83AA2295274D7B4700F6495C /* SearchLyricCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA2294274D7B4700F6495C /* SearchLyricCellViewModel.swift */; };
@@ -30,6 +40,10 @@
 		83ADEBC7274D988B00041AE3 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEBC6274D988B00041AE3 /* CustomFont.swift */; };
 		83ADEBC9274DA59A00041AE3 /* LyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEBC8274DA59A00041AE3 /* LyricViewController.swift */; };
 		83ADEBCB274DB4D000041AE3 /* SongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEBCA274DB4D000041AE3 /* SongResponse.swift */; };
+		83B6AAB127AF36AB00489CFA /* LyricsAppData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83B6AAAF27AF36AB00489CFA /* LyricsAppData.xcdatamodeld */; };
+		83B6AAB727AF39EE00489CFA /* LyricDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6AAB627AF39EE00489CFA /* LyricDataService.swift */; };
+		83B6AAC527AF3ED600489CFA /* BookmarkedLyricCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6AAC427AF3ED600489CFA /* BookmarkedLyricCellViewModel.swift */; };
+		83B6AAC827AF458D00489CFA /* BookmarkedLyricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6AAC727AF458D00489CFA /* BookmarkedLyricViewController.swift */; };
 		83C1D554274D337A009FCC21 /* LTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1D553274D337A009FCC21 /* LTextField.swift */; };
 		83C1D556274D397B009FCC21 /* LButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1D555274D397B009FCC21 /* LButton.swift */; };
 		83C1D558274D3CF2009FCC21 /* LyricResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1D557274D3CF2009FCC21 /* LyricResultViewController.swift */; };
@@ -58,6 +72,7 @@
 
 /* Begin PBXFileReference section */
 		4DFA84856610CABE3404D31C /* Pods_LyricsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyricsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8302505227ACA65000C613C1 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		8304C599274FDBD8000C7B59 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		831ADAA72739E13100CB2690 /* LyricsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyricsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831ADAAA2739E13100CB2690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,11 +88,20 @@
 		831ADACE2739E13200CB2690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831E4DB1274EC77D006ADF66 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		831E4DB3274ED621006ADF66 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		834E3C6927AEA6BA00DFDF66 /* ChartCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCellViewModel.swift; sourceTree = "<group>"; };
+		834E3C6C27AEA91900DFDF66 /* ChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableViewCell.swift; sourceTree = "<group>"; };
+		83539B3327AF9CC300EBB952 /* BookedmarkLyricViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedmarkLyricViewModel.swift; sourceTree = "<group>"; };
+		83539B3527AFA70F00EBB952 /* BookmarkLyricTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkLyricTableViewCell.swift; sourceTree = "<group>"; };
+		835F983B27B00F6000783EE7 /* LyricEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LyricEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		835F983C27B00F6000783EE7 /* LyricEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LyricEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		83645086274C1ABC00B80C47 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
 		83645088274C1E1800B80C47 /* LyricEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricEndpoint.swift; sourceTree = "<group>"; };
 		8364508A274C204400B80C47 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		8364508D274C260300B80C47 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
-		837ABBC82741998800F63612 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8378438227ADBA4C00A8EA70 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8378438727ADBAF800A8EA70 /* BookmarkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkListViewController.swift; sourceTree = "<group>"; };
+		8378438927ADC69A00A8EA70 /* SiteEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteEndpoint.swift; sourceTree = "<group>"; };
+		837ABBC82741998800F63612 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		837ABBCB274199DA00F63612 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		837ABBCF2741A25B00F63612 /* Programme-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Programme-Regular.ttf"; sourceTree = "<group>"; };
 		83AA2294274D7B4700F6495C /* SearchLyricCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLyricCellViewModel.swift; sourceTree = "<group>"; };
@@ -87,6 +111,10 @@
 		83ADEBC6274D988B00041AE3 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		83ADEBC8274DA59A00041AE3 /* LyricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricViewController.swift; sourceTree = "<group>"; };
 		83ADEBCA274DB4D000041AE3 /* SongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResponse.swift; sourceTree = "<group>"; };
+		83B6AAB027AF36AB00489CFA /* LyricsAppData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LyricsAppData.xcdatamodel; sourceTree = "<group>"; };
+		83B6AAB627AF39EE00489CFA /* LyricDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricDataService.swift; sourceTree = "<group>"; };
+		83B6AAC427AF3ED600489CFA /* BookmarkedLyricCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedLyricCellViewModel.swift; sourceTree = "<group>"; };
+		83B6AAC727AF458D00489CFA /* BookmarkedLyricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedLyricViewController.swift; sourceTree = "<group>"; };
 		83C1D553274D337A009FCC21 /* LTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTextField.swift; sourceTree = "<group>"; };
 		83C1D555274D397B009FCC21 /* LButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LButton.swift; sourceTree = "<group>"; };
 		83C1D557274D3CF2009FCC21 /* LyricResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricResultViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +193,7 @@
 		831ADAA92739E13100CB2690 /* LyricsApp */ = {
 			isa = PBXGroup;
 			children = (
+				83B6AAAE27AF367500489CFA /* Data */,
 				83ADEBC3274D983500041AE3 /* Managers */,
 				8364508C274C25F700B80C47 /* Services */,
 				837ABBCD27419C6600F63612 /* ViewModel */,
@@ -200,10 +229,10 @@
 		831ADADA2739E14E00CB2690 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				837ABBC82741998800F63612 /* MainViewController.swift */,
-				83C1D557274D3CF2009FCC21 /* LyricResultViewController.swift */,
-				83ADEBC8274DA59A00041AE3 /* LyricViewController.swift */,
-				831E4DB1274EC77D006ADF66 /* AboutViewController.swift */,
+				8378438627ADBA6300A8EA70 /* Bookmark */,
+				8378438527ADBA5800A8EA70 /* Chart */,
+				8378438427ADBA5100A8EA70 /* Search */,
+				8378438227ADBA4C00A8EA70 /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -212,9 +241,8 @@
 			isa = PBXGroup;
 			children = (
 				83C1D552274D3345009FCC21 /* Components */,
+				83B6AAC627AF3F2B00489CFA /* SubViews */,
 				831ADAB52739E13200CB2690 /* LaunchScreen.storyboard */,
-				8304C599274FDBD8000C7B59 /* DescriptionView.swift */,
-				83E0B6B4274FF1F100617817 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,16 +275,55 @@
 				83AA2296274D7B9700F6495C /* UIThumbnail.swift */,
 				83ADEBC6274D988B00041AE3 /* CustomFont.swift */,
 				83ADEBCA274DB4D000041AE3 /* SongResponse.swift */,
+				8378438927ADC69A00A8EA70 /* SiteEndpoint.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		834E3C6B27AEA8F500DFDF66 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				834E3C6C27AEA91900DFDF66 /* ChartTableViewCell.swift */,
+				83539B3527AFA70F00EBB952 /* BookmarkLyricTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		8364508C274C25F700B80C47 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				8364508D274C260300B80C47 /* ApiService.swift */,
+				83B6AAB627AF39EE00489CFA /* LyricDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		8378438427ADBA5100A8EA70 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				837ABBC82741998800F63612 /* SearchViewController.swift */,
+				83C1D557274D3CF2009FCC21 /* LyricResultViewController.swift */,
+				83ADEBC8274DA59A00041AE3 /* LyricViewController.swift */,
+				831E4DB1274EC77D006ADF66 /* AboutViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8378438527ADBA5800A8EA70 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8302505227ACA65000C613C1 /* ChartsViewController.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		8378438627ADBA6300A8EA70 /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				8378438727ADBAF800A8EA70 /* BookmarkListViewController.swift */,
+				83B6AAC727AF458D00489CFA /* BookmarkedLyricViewController.swift */,
+			);
+			path = Bookmark;
 			sourceTree = "<group>";
 		};
 		837ABBCA2741999A00F63612 /* Extensions */ = {
@@ -273,6 +340,9 @@
 			children = (
 				83AA2294274D7B4700F6495C /* SearchLyricCellViewModel.swift */,
 				83FB318C274E7418008EA26B /* SongViewModel.swift */,
+				834E3C6927AEA6BA00DFDF66 /* ChartCellViewModel.swift */,
+				83B6AAC427AF3ED600489CFA /* BookmarkedLyricCellViewModel.swift */,
+				83539B3327AF9CC300EBB952 /* BookedmarkLyricViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -293,9 +363,29 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		83B6AAAE27AF367500489CFA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				835F983B27B00F6000783EE7 /* LyricEntity+CoreDataClass.swift */,
+				835F983C27B00F6000783EE7 /* LyricEntity+CoreDataProperties.swift */,
+				83B6AAAF27AF36AB00489CFA /* LyricsAppData.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		83B6AAC627AF3F2B00489CFA /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8304C599274FDBD8000C7B59 /* DescriptionView.swift */,
+				83E0B6B4274FF1F100617817 /* LoadingView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		83C1D552274D3345009FCC21 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				834E3C6B27AEA8F500DFDF66 /* Cells */,
 				83C1D553274D337A009FCC21 /* LTextField.swift */,
 				83C1D555274D397B009FCC21 /* LButton.swift */,
 				83AA2298274D7CA600F6495C /* SearchLyricCollectionViewCell.swift */,
@@ -479,18 +569,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8364508B274C204400B80C47 /* SearchResponse.swift in Sources */,
-				837ABBC92741998800F63612 /* MainViewController.swift in Sources */,
+				835F983E27B00F6000783EE7 /* LyricEntity+CoreDataProperties.swift in Sources */,
+				837ABBC92741998800F63612 /* SearchViewController.swift in Sources */,
 				831ADAAB2739E13100CB2690 /* AppDelegate.swift in Sources */,
 				83AA2297274D7B9700F6495C /* UIThumbnail.swift in Sources */,
+				834E3C6D27AEA91900DFDF66 /* ChartTableViewCell.swift in Sources */,
 				831E4DB4274ED621006ADF66 /* ViewController+Extension.swift in Sources */,
 				83AA2299274D7CA600F6495C /* SearchLyricCollectionViewCell.swift in Sources */,
+				83B6AAB727AF39EE00489CFA /* LyricDataService.swift in Sources */,
+				83B6AAB127AF36AB00489CFA /* LyricsAppData.xcdatamodeld in Sources */,
 				83ADEBCB274DB4D000041AE3 /* SongResponse.swift in Sources */,
+				835F983D27B00F6000783EE7 /* LyricEntity+CoreDataClass.swift in Sources */,
 				8304C59A274FDBD8000C7B59 /* DescriptionView.swift in Sources */,
+				8378438A27ADC69A00A8EA70 /* SiteEndpoint.swift in Sources */,
 				83ADEBC9274DA59A00041AE3 /* LyricViewController.swift in Sources */,
+				8302505327ACA65000C613C1 /* ChartsViewController.swift in Sources */,
 				83645089274C1E1800B80C47 /* LyricEndpoint.swift in Sources */,
 				831ADAAD2739E13100CB2690 /* SceneDelegate.swift in Sources */,
+				834E3C6A27AEA6BA00DFDF66 /* ChartCellViewModel.swift in Sources */,
 				83ADEBC5274D984D00041AE3 /* UtilManager.swift in Sources */,
+				8378438327ADBA4C00A8EA70 /* TabBarViewController.swift in Sources */,
 				83C1D558274D3CF2009FCC21 /* LyricResultViewController.swift in Sources */,
+				83539B3427AF9CC300EBB952 /* BookedmarkLyricViewModel.swift in Sources */,
+				83539B3627AFA70F00EBB952 /* BookmarkLyricTableViewCell.swift in Sources */,
+				83B6AAC527AF3ED600489CFA /* BookmarkedLyricCellViewModel.swift in Sources */,
 				83C1D554274D337A009FCC21 /* LTextField.swift in Sources */,
 				83C1D556274D397B009FCC21 /* LButton.swift in Sources */,
 				83FB318D274E7418008EA26B /* SongViewModel.swift in Sources */,
@@ -498,9 +600,11 @@
 				8364508E274C260300B80C47 /* ApiService.swift in Sources */,
 				83ADEBC7274D988B00041AE3 /* CustomFont.swift in Sources */,
 				83AA2295274D7B4700F6495C /* SearchLyricCellViewModel.swift in Sources */,
+				8378438827ADBAF800A8EA70 /* BookmarkListViewController.swift in Sources */,
 				831E4DB2274EC77D006ADF66 /* AboutViewController.swift in Sources */,
 				83645087274C1ABC00B80C47 /* ApiEndpoint.swift in Sources */,
 				83E0B6B5274FF1F100617817 /* LoadingView.swift in Sources */,
+				83B6AAC827AF458D00489CFA /* BookmarkedLyricViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,6 +931,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83B6AAAF27AF36AB00489CFA /* LyricsAppData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83B6AAB027AF36AB00489CFA /* LyricsAppData.xcdatamodel */,
+			);
+			currentVersion = 83B6AAB027AF36AB00489CFA /* LyricsAppData.xcdatamodel */;
+			path = LyricsAppData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 831ADA9F2739E13100CB2690 /* Project object */;
 }

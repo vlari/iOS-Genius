@@ -45,7 +45,6 @@ class ApiService {
         dataTask.resume()
     }
     
-    
     func request(endpoint: ApiEndpoint, completion: @escaping (Result<String, Error>) -> ()) {
         let urlComponents = getUrlComponents(from: endpoint)
         
@@ -69,18 +68,12 @@ class ApiService {
             DispatchQueue.main.async {
                 let stringHtml = String(data: data, encoding: .utf8)!
                 
-                do {
-                    let doc: Document = try SwiftSoup.parse(stringHtml)
-                    let body: Elements = try doc.select("body")
-                    let lyricContainer: Elements = try body.select(".song_body-lyrics")
-                    let rawLyrics: String = try lyricContainer.select(".lyrics").text()
-                    
-                    let lyrics = UtilManager.shared.getFormatted(lyrics: rawLyrics)
-                    
-                    completion(.success(lyrics))
-                } catch {
+                guard !stringHtml.isEmpty else {
                     completion(.failure(APIError.failedHtmlParsing))
+                    return
                 }
+                
+                completion(.success(stringHtml))
             }
         }
         

@@ -40,8 +40,7 @@ enum LyricEndpoint: ApiEndpoint {
     }
     
     var parameters: [URLQueryItem] {
-        // MARK: - Add your Genius API Key here
-        let apiKey = ""
+        let apiKey = UtilManager.shared.apiKey
         
         switch self {
         case .getSearchResult(let searchText):

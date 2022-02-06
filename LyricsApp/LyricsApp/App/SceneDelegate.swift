@@ -19,9 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        let navVC = UINavigationController(rootViewController: MainViewController())
-        configureNavBar()
-        window.rootViewController = navVC
+        LyricAppDataService.shared.initialize()
+        window.rootViewController = TabBarViewController()
         window.makeKeyAndVisible()
         self.window = window
     }

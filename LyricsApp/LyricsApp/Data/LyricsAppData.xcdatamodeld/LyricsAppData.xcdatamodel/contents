@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LyricEntity" representedClassName="LyricEntity" syncable="YES">
+        <attribute name="artist" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="lyrics" attributeType="String"/>
+        <attribute name="songTitle" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="LyricEntity" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>

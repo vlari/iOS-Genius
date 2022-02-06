@@ -2,4 +2,6 @@
 
 <p>&nbsp;</p>
 
-![](images/geniusappdemo.gif)
+![](images/geniusBanner.png)
+
+<p>&nbsp;</p>
